@@ -15,7 +15,7 @@ int main()
     //membuka file dalam model menulis
     ofstream outfile;
     //menunjuk ke sebuah nama file
-    outfile.open("contohfile.txt");
+    outfile.open(Namafile + ".txt", ios::out);
 
     cout << ">= Menulis File, \'q\' untuk keluar" << endl;
 
@@ -35,7 +35,7 @@ int main()
     //Membuka file dalam mode membaca
     ifstream infile;
     //menunjukan ke sebuah file
-    infile.open("contohfile.txt");
+    infile.open(Namafile + ".txt", ios::out);
 
     cout << endl << ">= Membuka dan membaca file " << endl;
     //jika file ada maka
