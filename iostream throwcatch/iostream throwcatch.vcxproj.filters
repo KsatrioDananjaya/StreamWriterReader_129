@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="iostream throwcatch.cpp">
+    <ClCompile Include="iofile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
