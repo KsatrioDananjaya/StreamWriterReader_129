@@ -9,6 +9,9 @@ int main()
     string baris;
     string Namafile;
 
+    cout << "Masukkan Nama File : ";
+    cin >> Namafile;
+
     //membuka file dalam model menulis
     ofstream outfile;
     //menunjuk ke sebuah nama file
